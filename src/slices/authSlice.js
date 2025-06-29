@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   signupData: null,
   loading: false,
-  token: localStorage.getItem("token") ? JSON.parse(localStorage.getItem("token")) : null,
+  token: localStorage.getItem("token") ? JSON.parse(localStorage.getItem("token")) : null,   //if you find data show profile other wise show login or signup
 };
 
 const authSlice = createSlice({

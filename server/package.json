@@ -1,16 +1,16 @@
 {
-	"name": "studynotion-backend",
+	"name": "e-gurukul",
 	"version": "1.0.0",
-	"description": "studynotion-backend",
+	"description": "e-gurukul",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"studynotion-backend"
+		"e-gurukul"
 	],
-	"author": "Saikat Mukherjee",
+	"author": "Hemant kumar",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.1",

@@ -24,7 +24,8 @@ exports.resetPasswordToken = async (req, res) => {
     )
     console.log("DETAILS", updatedDetails)
 
-    const url = `https://e-gurukul.vercel.app//update-password/${token}`
+   const url = `${process.env.FRONTEND_URL}/update-password/${token}`
+
     
 
     await mailSender(
