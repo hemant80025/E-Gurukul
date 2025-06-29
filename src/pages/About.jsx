@@ -31,7 +31,7 @@ const About = () => {
           <div className="sm:h-[70px] lg:h-[150px]"></div>
           <div className="absolute  bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[30%] grid-cols-3 gap-3 lg:gap-5">
             <div className="mt-20 flex grid-cols-3 gap-3 lg:gap-5">
-              <img src={BannerImage1} altpx="" className="aspect-square" />
+              <img src={BannerImage1} alt="" className="aspect-square" />
               <img src={BannerImage2} alt="" className="aspect-square" />
               <img src={BannerImage3} alt="" className="aspect-square" />
             </div>
